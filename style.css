@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+*{m
+  margin:0;
+  padding:0;
+  border:0;
+  text-decoration:none;
+  background-color:transparent;
+}
+body{
+  margin:0;
+  padding:0;
+  border:0;
+  text-decoration:none;
+  background:		#000;		/*url(image/bkg_content.png) repeat;*/
+}
+
+#header{
+  width:			100%;
+  height:			299px;
+  background:		url(image/bkg_header.png) top repeat-x;
+}
+#menu{
+  height:			112px;
+  background:		url(image/bkg_menu.png) repeat;
+  position:		absolute;
+  margin:			25px 0 0 294px;
+  padding-left:	20px;
+  padding-right:	20px;
+  padding-top:		80px;
+}
+#menu a{
+  color:			#FFF;
+  font-family:		"Arial Black", Gadget, sans-serif;
+  font-size:		30px;
+  font-weight:		bold;
+  letter-spacing:	-2px;
+  margin:			0 7px 0 7px;
+}
+#menu a:hover{
+  border-bottom:	#FFF solid 5px;
+}
+
+#topcontent{
+  height:			45px;
+  margin-top:		300px;
+  background:		url(image/bkg_topcontent.png) top repeat-x;
+}
+#content{
+  width:				100%;
+  height:			100%;
+  background:		url(image/bkg_content.png) repeat;
+}
+#wrap{
+  width:		1150px;
+  height:	auto;
+  margin:	0 auto 0 auto;
+}
+
+
+#page{
+  width:			883px;
+  height:		auto;
+  margin-bottom:	20px;
+  float:			left;
+  background:	#fff;
+}
+#img_conteiner{
+  text-align:		center;
+  padding:		20px 20px 20px 20px;
+}
+#img_conteiner img{
+  margin:			4px 3px 0 3px; 
+}
+#sidebar{
+  width:			260px;
+  height:			auto;
+  float:			left;
+  margin-left:		7px;
+}
+#sidemenu_1{
+  width:			239px;
+}
+.voicesidemenu{
+  width:			219px !important;
+  height:			28px !important;
+  background:		url(image/menu/bkg_off.png) top no-repeat;
+  padding:		4px 0 0 20px;
+  margin-bottom:	-4px;
+}
+#sidemenu_1 a{
+  color:			#000;
+  font-family:		Arial, Helvetica, sans-serif;
+  font-size:		16px;
+  font-weight:		700;
+  margin-top:		-5px;
+  margin-bottom:	5px;
+}
+.voicesidemenu:hover{
+  background:		url(image/menu/bkg_on.png) top no-repeat;
+}
+#sidemenu_1 a:hover{
+  color:			#f00;
+}
+.menushop{
+  width:			192px !important;
+  background:	#F7F7F7;
+  margin-left:	15px;
+  padding:		8px 8px 8px 8px;
+  border:		0 2px 2px 2px solid #333;
+}
+.menushop ul{
+  list-style:	circle;
+  cursor:		pointer;
+}
+.menushop li{
+  font-family:		Arial, Helvetica, sans-serif;
+  font-size:		16px;
+  font-weight:		bold;
+  color:			#333;
+  list-style:		circle;
+  cursor:			pointer;
+}
+.menushop li:hover{	color:#F00;}
+.menushop li ul li{
+  margin-left:		13px;
+  font-family:		Arial, Helvetica, sans-serif;
+  font-size:		14px;
+  padding:		4px 0 4px 0;
+  color:			#666;
+  list-style:		square;
+  cursor:			pointer;
+}
+.menushop li ul li:hover{color:#930;}
+
+#mappagoogle{
+  width:			843px;
+  height:			500px;
+  margin:			20px 0 0 20px;
+  background:		#000;
+}
+.menugallery{
+  padding:		5px 20px 5px 20px;
+}
+.menugallery p{
+  padding:		5px 20px 5px 20px;
+  font-family:		Verdana, Geneva, sans-serif;
+  font-size:		16px;
+  color:			#000;
+}
+.menugallery a{
+  padding-right:	10px;
+  font-family:		Verdana, Geneva, sans-serif;
+  font-weight:		bold;
+  font-size:		15px;
+  color:			#F00 !important;
+}
+.menugallery a:hover{
+  color:			#F90 !important;
+}
+
+#footer{
+   width:			930px;
+   padding-top:	20px;
+   margin:		0 auto 30px auto;
+   text-align:		left;
+}
+
+h1{
+  color:			#F00;
+  font-family:		Arial, Helvetica, sans-serif;
+  font-size:		20px;
+  font-weight:		bold;
+  padding:		20px 20px 0px 20px;
+}
+h2{
+  color:			#F00;
+  font-family:		Arial, Helvetica, sans-serif;
+  font-size:		17px;
+  font-weight:		bold;
+  padding:		20px 20px 0px 20px;
+}
+p{
+  color:			#000;
+  font-family:		Arial, Helvetica, sans-serif;
+  font-size:		14px;
+  padding:		20px 20px 20px 20px;
+  text-align:		justify;
+}
+
+a img{
+  padding: 0 0 0 0 !important;
+  margin:	0 0 0 0 !important;
+}
+
+
+
+
+
+#addutentetabledivcage{
+	width:100%;
+}
+#addutentetabledivcage form{
+	width:100%;
+}
+#addutentetabledivcage table{
+	width:70%;
+	margin-left:28px;
+}
+#addutentetabledivcage tr{
+	margin:4px 0 0 0;
+}
+#addutentetabledivcage input{
+	background:		#999;
+	width:			100%;
+	margin:10px 0 10px 0;
+	color:#FFF;
+}
+#addutentetabledivcage #modifica,#ripristina,#modifica_pwd,#ripristina2,#imposta_predefinito{
+	background:		#333 !important;
+	width:			200px !important;
+	margin-left:	30px !important;
+	padding:			3px 3px 3px 3px !important;
+	cursor:			pointer !important;
+}
+
+.catimage{
+	width:		203px ;
+	height:		203px ;
+	max-width:		203px ;
+	max-height:		203px ;
+	min-width:		203px ;
+	min-height:		203px ;
+	overflow:	hidden;
+border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 0px solid #000000;
+}
+.catimage img{
+	width:		203px ;
+	min-width:		203px ;
+	max-width:		203px ;
+}
+
+.inviastandard{
+	padding:10px 10px 10px 10px;
+	background:#CCC;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 0px solid #000000;
+}
+.inviastandard:hover{
+	padding:10px 10px 10px 10px;
+	background:#666;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 0px solid #000000;
+	color:#333;
+}
+
+.voiceadmin{
+	padding:20px 30px 20px 30px;
+	margin-left:16%;
+	background:#CCC;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 0px solid #000000;
+	color:#000 !important;
+	
+	-webkit-box-shadow: 2px 2px 2px 2px ;
+box-shadow: 2px 2px 2px 2px ; 
+
+-webkit-transition: all 400ms cubic-bezier(0.185, 1, 0.480, 1); /* older webkit */
+-webkit-transition: all 400ms cubic-bezier(0.185, 1.085, 0.480, 1.190);
+   -moz-transition: all 400ms cubic-bezier(0.185, 1.085, 0.480, 1.190);
+    -ms-transition: all 400ms cubic-bezier(0.185, 1.085, 0.480, 1.190);
+     -o-transition: all 400ms cubic-bezier(0.185, 1.085, 0.480, 1.190);
+        transition: all 400ms cubic-bezier(0.185, 1.085, 0.480, 1.190); /* custom */
+}
+.voiceadmin:hover{
+	margin-left:17%;
+	background:#333;
+	color:#FFF !important;
+
+-webkit-transition-timing-function: cubic-bezier(0.185, 1, 0.480, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.185, 1.085, 0.480, 1.190);
+   -moz-transition-timing-function: cubic-bezier(0.185, 1.085, 0.480, 1.190);
+    -ms-transition-timing-function: cubic-bezier(0.185, 1.085, 0.480, 1.190);
+     -o-transition-timing-function: cubic-bezier(0.185, 1.085, 0.480, 1.190);
+        transition-timing-function: cubic-bezier(0.185, 1.085, 0.480, 1.190); /* custom */
+}
